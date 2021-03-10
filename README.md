@@ -1,11 +1,11 @@
 # Projeto-Desafio
 
 * Critérios necessários para rodar a aplicação *
-Ter MySql baixado no seu dispositivo.
+:Ter MySql baixado no seu dispositivo.
 Ter um navegador com suporte a HTML, php e js.
 
 * Como rodar a aplicação *
-Baixar o código e executá - lo no localhost.
+:Baixar o código e executá - lo no localhost.
 Obs: Lembre - se de ligar o xampp se for o caso do uso de Windows.
 
 * Como a aplicação funciona *
