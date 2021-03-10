@@ -1,0 +1,53 @@
+body{
+	background-color: #064464;
+    margin: 0;
+    padding: 5;
+    background-size: cover;
+    height: 657px;
+}
+
+#container{
+	width: 600px;
+	height: 400px;
+	position: relative;
+
+}
+h1{
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 4px #064464;
+	font-size: 4vw;
+
+}
+#divVideo{
+	top: 20%;
+	background-color: #979797;
+	width: 600px;
+	height: 550px;
+	border-radius: 30px;
+	position: absolute;
+}
+#idVideo{
+	margin-top: 0;
+}
+button{
+	border: 1px solid #064464;
+	margin: 20px;
+	background-color: #096290;
+	border-radius: 5px;
+	color: white;
+	padding: 12px;
+	box-shadow: 0 5px 0 #064464;
+
+}
+button:hover{
+	background-color: #064464;
+	border: 1px solid #096290;
+	cursor: pointer;
+}
+button:active{
+	position: relative;
+	top: 5px;
+	border: 1px solid #096290;
+	box-shadow: none;
+}
