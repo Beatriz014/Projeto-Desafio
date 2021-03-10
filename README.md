@@ -6,7 +6,7 @@ Ter um navegador com suporte a HTML, php e js.
 
 * Como rodar a aplicação 
 : Baixar o código e executá - lo no localhost.
-Obs: Lembre - se de ligar o xampp se for o caso do uso de Windows.
+Obs: Lembre - se de ligar o xampp se for o caso do uso de Windows e de executar o arquivo do banco para que a aplicação funcione corretamente.
 
 * Como a aplicação funciona 
 
