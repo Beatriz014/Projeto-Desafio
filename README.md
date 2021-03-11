@@ -17,6 +17,7 @@
 -> No caso de Windows: C:/xampp/htdocs/
 
 3. Fazer as configurações necessárias no arquivo do banco (Controle/Conect.php), ou seja, configurar as informações de acordo com as configurações do seu localhost (tipo de banco, usuário, senha,etc). 
+
 Obs: Em caso de outro banco de dados estar sendo utilizado, fazer as configurações necessárias para esse outro banco.
 
 4. Criar o banco de dados no MySQL. O banco está localizado no diretório raiz como 'projeto.sql' e para criá-lo de forma direta no MySQL siga os seguintes passos: 
