@@ -1,12 +1,29 @@
 # Projeto-Desafio
 
-* Critérios necessários para rodar a aplicação 
-: Ter MySql baixado no seu dispositivo.
-Ter um navegador com suporte a HTML, php e js.
+* Critérios necessários para rodar a aplicação:
 
-* Como rodar a aplicação 
-: Baixar o código e executá - lo no localhost.
-Obs: Lembre - se de ligar o xampp se for o caso do uso de Windows e de executar o arquivo do banco para que a aplicação funcione corretamente.
+1. Ter MySQL instalado no seu dispositivo(ou outro banco de dados)
+
+2. Ter um navegador com suporte a HTML, php e js.
+
+* Como rodar a aplicação
+
+1. Baixar o código.
+
+2. Colocar o diretório raiz (Projeto-Desafio-main) no localhost.
+
+-> No caso de Linux: ~/var/www/html/
+
+-> No caso de Windows: C:/xampp/htdocs/
+
+3. Fazer as configurações necessárias no arquivo do banco (Controle/Conect.php), ou seja, configurar as informações de acordo com as configurações do seu localhost (tipo de banco, usuário, senha,etc). 
+Obs: Em caso de outro banco de dados estar sendo utilizado, fazer as configurações necessárias para esse outro banco.
+
+4. Criar o banco de dados no MySQL. O banco está localizado no diretório raiz como 'projeto.sql' e para criá-lo de forma direta no MySQL siga os seguintes passos: 
+-> Abra o shell e digite o comando: $ mysql -u root -p(se tiver senha) < diretório do arquivo/arquivo.sql
+Ex: mysql -u root < C:/xampp/htdocs/Projeto-Desafio-main/Controle/Banco/projeto.sql
+
+5. Agora que o banco já está criado, a aplicação já está no localhost e o banco já está configurado, agora é só simplesmente abrir a aplicação no localhost 
 
 * Como a aplicação funciona 
 
