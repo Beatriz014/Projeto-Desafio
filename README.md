@@ -21,7 +21,10 @@
 Obs: Em caso de outro banco de dados estar sendo utilizado, fazer as configurações necessárias para esse outro banco.
 
 4. Criar o banco de dados no MySQL. O banco está localizado no diretório raiz como 'projeto.sql' e para criá-lo de forma direta no MySQL siga os seguintes passos: 
--> Abra o shell e digite o comando: $ mysql -u root -p(se tiver senha) < diretório do arquivo/arquivo.sql
+
+-> Abra o shell e digite o comando: 
+$ mysql -u root -p(se tiver senha) < diretório do arquivo/arquivo.sql
+
 Ex: mysql -u root < C:/xampp/htdocs/Projeto-Desafio-main/Controle/Banco/projeto.sql
 
 5. Agora que o banco já está criado, a aplicação já está no localhost e o banco já está configurado, agora é só simplesmente abrir a aplicação no localhost 
